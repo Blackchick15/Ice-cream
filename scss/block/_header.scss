@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #96684F;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: end;
+}
+
+.header__nav-ul{
+    display: flex;
+    width: 675px;
+    justify-content: space-between;
+}
+
+.header__nav-ul_li{
+    width: 125px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: #FFFFFF;
+}
