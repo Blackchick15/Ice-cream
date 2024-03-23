@@ -274,4 +274,73 @@ legend {
   height: 3px;
   margin-bottom: 15px;
   background-color: #FFFFFF;
+}
+
+.services {
+  width: 100%;
+  height: 900px;
+  background-image: url(/img/image\ 5.jpg);
+}
+
+.services__title {
+  color: #FFFFFF;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.08px;
+}
+
+.services__div {
+  display: flex;
+  width: 1340px;
+  height: 500px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.services__div-ul {
+  width: 320px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__div-ul_li-text {
+  width: 320px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 1.08px;
+  margin-top: 20px;
+}
+
+.works {
+  width: 100%;
+  height: 900px;
+  background-image: url(/img/image\ 5.jpg);
+}
+
+.works__box {
+  display: flex;
+  width: 1240px;
+  height: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.works__title {
+  color: #FFFFFF;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.08px;
+  margin-bottom: 200px;
 }/*# sourceMappingURL=main.css.map */
