@@ -110,8 +110,9 @@ legend {
 
 .hero {
   width: 100%;
+  height: 799px;
   margin: 0 auto;
-  background-color: #96684F;
+  background-image: url(/img/image\ 6.jpg);
 }
 
 .hero__div {
@@ -191,9 +192,10 @@ legend {
 
 .header {
   width: 100%;
+  height: 100px;
   margin: 0 auto;
-  background-color: #96684F;
-  padding: 15spx;
+  padding: 15px;
+  background-image: url(/img/image\ 7.jpg);
 }
 
 .header__nav {
@@ -216,4 +218,60 @@ legend {
   letter-spacing: 1.08px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.chocolate {
+  width: 100%;
+  height: 900px;
+  margin: 0 auto;
+  background-image: url(/img/image\ 5.jpg);
+}
+
+.chocolate__title {
+  color: #FFFFFF;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.08px;
+  margin-bottom: 200px;
+  padding-top: 50px;
+}
+
+.chocolate__div {
+  display: flex;
+  width: 1340px;
+  justify-content: space-between;
+}
+
+.chocolate__div-img {
+  width: 548px;
+  height: 408px;
+}
+
+.chocolate__div-title {
+  width: 740px;
+  height: 475px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.chocolate__div-title_li {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: end;
+  letter-spacing: 1.08px;
+  margin-bottom: 15px;
+}
+
+.chocolate__div-title_li-line {
+  width: 740px;
+  height: 3px;
+  margin-bottom: 15px;
+  background-color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
