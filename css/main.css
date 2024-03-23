@@ -132,7 +132,7 @@ legend {
 }
 
 .hero__div-title_li {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
@@ -141,7 +141,7 @@ legend {
 }
 
 .hero__div-title_li_pink {
-  color: #FFBABA;
+  color: #ffbaba;
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
@@ -164,8 +164,8 @@ legend {
   line-height: normal;
   border-radius: 30px;
   padding: 14px 90px;
-  border: solid #FFFFFF;
-  color: #FFFFFF;
+  border: solid #ffffff;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.3333333333);
 }
 
@@ -178,8 +178,8 @@ legend {
   line-height: normal;
   border-radius: 30px;
   padding: 14px 85px;
-  border: solid #FFFFFF;
-  color: #FFFFFF;
+  border: solid #ffffff;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.3333333333);
 }
 
@@ -283,7 +283,7 @@ legend {
 }
 
 .services__title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
@@ -311,7 +311,7 @@ legend {
 
 .services__div-ul_li-text {
   width: 320px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -327,6 +327,13 @@ legend {
   background-image: url(/img/image\ 5.jpg);
 }
 
+.works__div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
 .works__box {
   display: flex;
   width: 1240px;
@@ -336,11 +343,39 @@ legend {
 }
 
 .works__title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   letter-spacing: 1.08px;
   margin-bottom: 200px;
+}
+
+.works_icon {
+  display: flex;
+  width: 84px;
+  height: 32px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.map {
+  width: 100%;
+  height: 900px;
+  background-image: url(/img/image\ 5.jpg);
+}
+
+.map__div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map__div-box {
+  width: 900px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
