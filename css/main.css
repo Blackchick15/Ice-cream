@@ -321,6 +321,10 @@ legend {
   margin-top: 20px;
 }
 
+.slider {
+  width: 1360px;
+}
+
 .works {
   width: 100%;
   height: 900px;
@@ -328,6 +332,7 @@ legend {
 }
 
 .works__div {
+  width: 1360px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -335,11 +340,17 @@ legend {
 }
 
 .works__box {
+  position: absolutes;
   display: flex;
   width: 1240px;
   height: 300px;
+  opacity: 0;
   align-items: center;
   justify-content: space-between;
+}
+
+.works__box.active {
+  opacity: 1;
 }
 
 .works__title {
@@ -353,11 +364,12 @@ legend {
 }
 
 .works_icon {
+  position: absolute;
   display: flex;
   width: 84px;
   height: 32px;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 350px;
 }
 
 .map {
